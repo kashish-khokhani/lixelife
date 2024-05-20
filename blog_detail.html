@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxelife</title>
+
+    <!-- favico icon -->
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+
+    <!-- bootstrap  v5.3.3 -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="css/all.min.css">
+
+    <!-- slick slider -->
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+
+    <!-- main style -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- responsive style -->
+    <link rel="stylesheet" href="css/media.css">
+
+</head>
+<body>  
+    
+    <!-- preloader start -->
+    <div class="preloader">
+        <img src="img/asset 26.gif" alt="">
+    </div>
+    <!-- preloader end -->
+       
+    <!-- top header start -->
+    <header id="about_header" class="sticky w-100">
+        <div class="top_header bg-transparent shadow-none about_top_header bg-white align-items-center">
+            <nav class="navbar py-0">
+                <div class="container">
+                    <a class="navbar-brand main_logo p-0 me-0" href="index.html"><img src="img/asset 0.png" alt="" class="white_logo"><img src="img/asset 1.png" alt="" class="dark_logo"></a>
+                    <button class="navbar-toggler border-0 d-block d-lg-none z-3 text-white fs-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                        <span><i class="fas fa-bars"></i></span>
+                    </button>
+        
+                    <div class="headre_menu_btn z-1 d-flex align-items-center justify-content-between w-75">
+                    <ul class="main_menu d-lg-flex mb-0 px-0 d-none d-lg-block" id="navbarSupportedContent">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li><a href="about.html">About</a></li>
+                        <li>
+                            <a href="service.html">Service</a>
+                        </li>
+                        <li>
+                            <a href="#">Pages <i class="fas fa-angle-down"></i> </a>
+                            <ul class="sub_menu">
+                                <li><a href="faq.html">FAQ Page</a></li>
+                                <li><a href="pricing.html">Pricing Page</a></li>
+                                <li><a href="apartment.html">Apartment Page</a></li>
+                                <li><a href="project.html">Project Page</a></li>
+                                <li><a href="team.html">Team Page</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="blog.html">Blog</a>
+                        </li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+        
+                    <div class="sec_btn d-none d-xl-block">
+                        <a href="#" class="fw-bold text-white">GET A QUOTE <i class="fas fa-plus ms-2"></i></a>
+                    </div>
+                </div>
+    
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <div class="offcanvas-title" id="offcanvasNavbarLabel">
+                            <img src="img/asset 1.png" alt="">
+                        </div>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+
+                    <div class="offcanvas-body overflowY-scroll">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html" aria-expanded="false">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <div class="main_res_menu d-flex justify-content-between align-items-center">
+                                    <a class="nav-link" href="service.html" aria-expanded="false">Service</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <div class="main_res_menu d-flex justify-content-between align-items-center">
+                                    <a class="nav-link" href="#" aria-expanded="false">Pages</a> <i class="fas fa-plus"  data-bs-toggle="collapse" data-bs-target="#collapseExample3"></i>
+                                </div>
+                                <ul class="collapse mob_sub_menu" id="collapseExample3">
+                                    <li><a class="nav-link" href="faq.html">FAQ Page</a></li>
+                                    <li><a class="nav-link" href="pricing.html">Pricing Page</a></li>
+                                    <li><a class="nav-link" href="apartment.html">Apartment Page</a></li>
+                                    <li><a class="nav-link" href="project.html">Project Page</a></li>
+                                    <li><a class="nav-link" href="team.html">Team Page</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <div class="main_res_menu d-flex justify-content-between align-items-center">
+                                    <a class="nav-link" href="blog.html" aria-expanded="false">Blog </a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html" data-bs-toggle="collapse" aria-expanded="false">Contact</a>
+                            </li>
+                        </ul>
+                        
+                        <div class="contact_info">
+                            <p class="contact_main_title h5 fw-bold">Contact Info</p>
+                            <ul class="contact_social mb-0">
+                                <li><a href="#"><i class="fa-solid fa-location-dot me-3"></i>20, Bordeshi, New York, US</a></li>
+                                <li><a href="#"><i class="fa-solid fa-envelope me-3"></i>hello@technova.com</a></li>
+                                <li><a href="#"><i class="fa-solid fa-phone me-3"></i>+123-456-7890</a></li>
+                            </ul>
+                            <ul class="social_profile border-top d-flex pt-3 mt-3">
+                                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>   
+    <!-- top header end -->
+
+    <main>
+
+        <!-- breadcrumb start -->
+        <section>
+            <div class="about_banner" style="background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url(img/about\ 19.jpeg); background-size: cover; background-position: center center;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="page_heading text-center">
+                                <p class="page_title text-white display-5 fw-semibold mb-0">Blog Details</p>
+                            </div>
+                            <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                                <ol class="breadcrumb justify-content-center">
+                                  <li class="breadcrumb-item"><a href="index.html" class="text-white">Home</a></li>
+                                  <li class="breadcrumb-item active" aria-current="page"><a href="#" class="text-white">Blog Details</a></li>
+                                </ol>
+                              </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- breadcrumb end -->
+
+        <!-- blog details start -->
+        <section class="spacer pt-0">
+            <div class="blog_detail_sec">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-12">
+                            <div class="single_post_item mb-4">
+                                <div class="post_thumbnail mb-4">
+                                    <a href="#"><img src="img/b-details.jpg" class="h-100 w-100" alt=""></a>
+                                </div>
+                                <h3 class="post_title fw-bold fs-2 mb-4"><a href="#">Where Innovation Meets Interior Design</a></h3>
+                                <h3 class="post_title fw-bold fs-5 mb-3"><span>Creativity . 28th February 2022</span></h3>
+                                <p class="post_con mb-3">Aliquam eros justo, posuere loborti viverra laoreet matti ullamcorper posuere viverra .Aliquam eros justo, posuere lobortis, viverra laoreet augue mattis fermentum ullamcorper viverra laoreet Aliquam eros justo, posuere loborti viverra laoreet matti ullamcorper posuere viverra .Aliquam eros justo, posuere lobortis non, viverra laoreet augue mattis.Aliquam eros justo, posuere loborti viverra laoreet matti</p>
+                                <div class="blog_detail_list d-lg-flex">
+                                    <div class="single_list_item mb-4">
+                                        <div class="single_item_title d-flex align-items-center mb-3">
+                                            <i class="fa-solid fa-circle-check txtyellow fs-6"></i>
+                                            <h4 class="fw-bold ms-3 mb-0 fs-5">Best Emplementation</h4>
+                                        </div>
+                                        <p class="single_item_con">ished fact that a reader will be distrol acted bioiiy desig ished fact that a reader will acted bioiiy desig.</p>
+                                    </div>
+                                    <div class="single_list_item mb-4">
+                                        <div class="single_item_title d-flex align-items-center mb-3">
+                                            <i class="fa-solid fa-circle-check txtyellow fs-6"></i>
+                                            <h4 class="fw-bold ms-3 mb-0 fs-5">Best Emplementation</h4>
+                                        </div>
+                                        <p class="single_item_con">ished fact that a reader will be distrol acted bioiiy desig ished fact that a reader will acted bioiiy desig.</p>
+                                    </div>
+                                </div>
+                                <p class="detail_list_des">Aliquam eros justo, posuere loborti viverra laoreet matti ullamcorper posuere viverra .Aliquam eros justo, posuere lobortis, viverra laoreet augue mattis fermentum ullamcorper viverra</p>
+                                <div class="d-xl-flex align-items-center">
+                                    <div class="blog_detail_img2 img-fluid me-4">
+                                        <img src="img/pro_info.jpg" alt="">
+                                    </div>
+                                    <div class="vr d-xl-block d-sm-none txtyellow opacity-100"></div>
+                                    <div class="ps-xl-4">
+                                        <h3 class="post_title pt-lg-0 pt-sm-4 fw-bold fs-4 mb-3"><a href="#">A picture is worth of standard and like Your New Cars Perform ance and</a></h3>
+                                        <p class="post_con mb-0">Aliquam eros justo, posuere loborti viverra Aliquam eros justo, posuere loborti viverra laoreullamcorper posuere viverra .Aliquam eros just laoreemAliquam eros justo, posuere loborti viverra Aliquam erjusto, posuere loborti viverra laoreullamcorper</p>
+                                    </div>
+                                </div>
+                                <p class="detail_list_des mt-4 mb-5">Aliquam eros justo, posuere loborti viverra laoreet matti ullamcorper posuere viverra .Aliquam eros justo, posuere lobortis, viverra laoreet augue mattis fermentum ullamcorper viverra laoreet Aliquam eros justo, posuere loborti viverra laoreet matti ullamcorper posuere viverra .Aliquam eros justo, posuere lobortis non.</p>
+                                <div class="d-flex mb-4">
+                                    <div class="vr txtyellow opacity-100"></div>
+                                        <figure class="p-5 mb-0">
+                                            <blockquote class="blockquote">
+                                                <p class="fs-6">Aliquam eros justo, posuere loborti viverra laoreet matti ullamcorper posuere viverra .Aliquam eros justo, posuere lobortis, viverra laoreet augue mattis fermentum ullamcorper viverra laoreet the a Aliquam eros justo, posuere loborti viverra laoreet matti ullamcorper posuere viverra .Aliquam eros justo, posuere lobortis non.</p>
+                                            </blockquote>
+                                            <figcaption class="blockquote-footer fw-bold fs-5 mt-4">
+                                                <span title="Source Title">Stanio Lainto</span>
+                                            </figcaption>
+                                        </figure>
+                                </div>
+                                <div class="single_post_meta pt-3">
+                                    <div class="blog_post_tag d-md-flex align-items-center justify-content-between">
+                                        <div class="d-flex align-items-center">
+                                            <i class="fa-solid fa-tags txtyellow fs-5 me-4"></i>
+                                            <ul class="post_tag_list d-flex mb-0">
+                                                <li><a href="#">Marketing,</a></li>
+                                                <li><a href="#">branding,</a></li>
+                                                <li><a href="#">corporate,</a></li>
+                                                <li><a href="#">business</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="blog_social_share mt-md-0 mt-sm-4 text-sm-center">
+                                            <span class="social_share_title fw-bold fs-5">Share This Post</span>
+                                            <a href="#"><i class="fa-solid fa-share-nodes ms-4 txtyellow"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="blog_post_nav my-5 d-xl-flex border-top border-bottom">
+                                    <div class="post_navigation d-flex px-2 py-4">
+                                        <div class="post_img me-3">
+                                            <img src="img/blog_b1.jpg" alt="" class="object-fit-cover rounded-2">
+                                        </div>
+                                        <div class="blog_detail_text">
+                                            <span class="d-flex align-items-center mb-1">
+                                                <i class="fa-solid fa-angle-left txtyellow me-2"></i>
+                                                <span>Prev Post</span>
+                                            </span>
+                                            <h3 class="post_title fw-bold fs-6 mb-4"><a href="#">Your New Cars Perform Ance Aliquam Eros Justo, Posuere Loborti Viverra</a></h3>
+                                        </div>
+                                    </div>
+                                    <div class="post_navigation d-flex px-2 py-4">
+                                        <div class="blog_detail_text text-end">
+                                            <span class="d-flex align-items-center justify-content-end mb-1">
+                                                <span>Next Post</span>
+                                                <i class="fa-solid fa-angle-right txtyellow ms-2"></i>
+                                            </span>
+                                            <h3 class="post_title fw-bold fs-6 mb-4"><a href="#">Your New Cars Perform Ance Aliquam Eros Justo, Posuere Loborti Viverra</a></h3>
+                                        </div>
+                                        <div class="post_img ms-3">
+                                            <img src="img/blog_b1.jpg" alt="" class="object-fit-cover rounded-2">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="blog_author_info rounded-4 position-relative mb-5">
+                                    <div class="author_thum text-center position-absolute">
+                                        <a href="#"><img src="img/avatar.jpg" alt="" class="rounded-pill"></a>
+                                    </div>
+                                    <div class="author_text text-center">
+                                        <h3><a href="#">Johnson Doe</a></h3>
+                                        <i>Senior Writer</i>
+                                        <p class="mt-3">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaer at mquam eius modi tempora incid.</p>
+                                        <div class="post_author">
+                                            <a href="#" class="fw-medium mb-2">All Posts <i class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="post_comments">
+                                    <div class="blog_comment_title">
+                                        <h3 class="fw-medium fs-1">4 Comments</h3>
+                                    </div>
+                                    <div class="latest_comment">
+                                        <ul>
+                                            <li class="single_comment pt-5 pb-4 border-bottom d-flex">
+                                                <div class="comment_avtar me-4">
+                                                    <img src="img/commenter-1.jpg" alt="" class="rounded-pill">
+                                                </div>
+                                                <div class="comments_texts w-100">
+                                                    <div class="avtar_name">
+                                                        <h5><a href="#" class="fw-bold">Stanio lainto</a></h5>
+                                                        <div class="d-flex justify-content-between">
+                                                            <span>October 19, 2022</span>
+                                                            <a href="#" class="fw-bold d-flex align-items-center fs-5"><i class="fa-solid fa-reply txtyellow me-2"></i> Reply</a>
+                                                        </div>
+                                                    </div>
+                                                    <p class="mt-4">ished fact that a reader will be distrol acted bioii the.ished fact that a reader will be distrol acted laoreet Aliquam</p>
+                                                </div>
+                                            </li>
+                                            <li class="single_comment pt-5 pb-4 border-bottom d-flex">
+                                                <div class="comment_avtar me-4">
+                                                    <img src="img/commenter-2.jpg" alt="" class="rounded-pill">
+                                                </div>
+                                                <div class="comments_texts w-100">
+                                                    <div class="avtar_name">
+                                                        <h5><a href="#" class="fw-bold">Devid Warner</a></h5>
+                                                        <div class="d-flex justify-content-between">
+                                                            <span>October 19, 2022</span>
+                                                            <a href="#" class="fw-bold d-flex align-items-center fs-5"><i class="fa-solid fa-reply txtyellow me-2"></i> Reply</a>
+                                                        </div>
+                                                    </div>
+                                                    <p class="mt-4">ished fact that a reader will be distrol acted bioii the.ished fact that a reader will.</p>
+                                                </div>
+                                            </li>
+                                            <li class="single_comment pt-5 pb-4 border-bottom d-flex ms-5">
+                                                <div class="comment_avtar me-4">
+                                                    <img src="img/commenter-author.jpg" alt="" class="rounded-pill">
+                                                </div>
+                                                <div class="comments_texts w-100">
+                                                    <div class="avtar_name">
+                                                        <h5><a href="#" class="fw-bold">David Jones</a></h5>
+                                                        <div class="d-flex justify-content-between">
+                                                            <span>August 7, 2023 4.54 Am</span>
+                                                            <a href="#" class="fw-bold d-flex align-items-center fs-5"><i class="fa-solid fa-reply txtyellow me-2"></i> Reply</a>
+                                                        </div>
+                                                    </div>
+                                                    <p class="mt-4">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consecte non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaer at mquam eius modi teeius modi tempora inc.</p>
+                                                </div>
+                                            </li>
+                                            <li class="single_comment pt-5 pb-4 d-flex">
+                                                <div class="comment_avtar me-4">
+                                                    <img src="img/commenter-3.jpg" alt="" class="rounded-pill">
+                                                </div>
+                                                <div class="comments_texts w-100">
+                                                    <div class="avtar_name">
+                                                        <h5><a href="#" class="fw-bold">Jennifer Davis</a></h5>
+                                                        <div class="d-flex justify-content-between">
+                                                            <span>August 7, 2023 4.54 Am</span>
+                                                            <a href="#" class="fw-bold d-flex align-items-center fs-5"><i class="fa-solid fa-reply txtyellow me-2"></i> Reply</a>
+                                                        </div>
+                                                    </div>
+                                                    <p class="mt-4">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consecte non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaer at mquam eius modi teeius modi tempora inc.</p>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="post_comment_form mt-5">
+                                    <div class="post_comment_title mb-3">
+                                        <h3><a href="#" class="fw-bold fs-1">Add A Comment</a></h3>
+                                    </div>
+                                    <form action="">
+                                        <div class="contact_form d-lg-flex">
+                                            <input type="text" name="" placeholder="Your name*">
+                                            <input type="text" name="" placeholder="Your email*">
+                                            <input type="text" name="" placeholder="Your website">
+                                        </div>
+                                        <div class="contact_form d-flex">
+                                            <textarea name="" placeholder="Start writing comment"></textarea>
+                                        </div>
+                                        <div class="sec_btn p-0">
+                                            <a href="#" class="fw-bold text-center">POST COMMENT</a>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-12">
+                            <div class="blog_widget p-xxl-5 p-4 mb-5">
+                                <h4 class="fw-bold fs-4">Search</h4>
+                                <form action="" class="d-flex">
+                                    <input type="text" placeholder="Search.." class="w-100 border-0">
+                                    <i class="fa-solid fa-search bgyellow p-3 fs-4 ms-2"></i>
+                                </form>
+                            </div>
+                            <div class="blog_widget p-xxl-5 p-4">
+                                <h4 class="fw-bold fs-4">Categories</h4>
+                                <ul>
+                                    <li><a href="#">Modern Nest</a><span>01</span></li>
+                                    <li><a href="#">Elegant Spaces</a><span>05</span></li>
+                                    <li><a href="#">Chic Home Interiors</a><span>10</span></li>
+                                    <li><a href="#">Regular Start</a><span>06</span></li>
+                                </ul>
+                            </div>
+                            <div class="blog_widget_list p-xxl-5 p-4 mt-5">
+                                <h4 class="fw-bold fs-4">Recent Posts</h4>
+                                <ul>
+                                    <li class="mt-4">
+                                        <div class="widget_con">
+                                            <div class="widget_content d-flex align-items-center">
+                                                <div class="widget_con_img">
+                                                    <a href="blog_detail.html" class="recent_img"><img src="img/recent1.jpg" alt=""></a>
+                                                </div>
+                                                <div class="lettest_post ms-2">
+                                                    <a href="#" class="recent_title">Where Innovation Meets Our Interior Design</a>
+                                                    <i class="fa-regular fa-clock txtyellow fs-6"></i>
+                                                    <span class="fs-6 ms-2">April 11, 2023</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="mt-4">
+                                        <div class="widget_con">
+                                            <div class="widget_content d-flex align-items-center">
+                                                <div class="widget_con_img">
+                                                    <a href="blog_detail.html" class="recent_img"><img src="img/asset 27.jpeg" alt=""></a>
+                                                </div>
+                                                <div class="lettest_post ms-2">
+                                                    <a href="#" class="recent_title">Remote Collaboration Tools And Strategies</a>
+                                                    <i class="fa-regular fa-clock txtyellow fs-6"></i>
+                                                    <span class="fs-6 ms-2">November 6, 2023</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="mt-4">
+                                        <div class="widget_con">
+                                            <div class="widget_content d-flex align-items-center">
+                                                <div class="widget_con_img">
+                                                    <a href="#" class="recent_img"><img src="img/pro_detail.jpg" alt=""></a>
+                                                </div>
+                                                <div class="lettest_post ms-2">
+                                                    <a href="blog_detail.html" class="recent_title">Elevate Your Lifestyle With Our Designs</a>
+                                                    <i class="fa-regular fa-clock txtyellow fs-6"></i>
+                                                    <span class="fs-6 ms-2">October 6, 2023</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="blog_widget blog_tags p-xxl-5 p-4 mt-5">
+                                <h4 class="fw-bold fs-4">Tags</h4>
+                                <a href="#">All Project</a>
+                                <a href="#">Startup</a>
+                                <a href="#">Regular</a>
+                                <a href="#">Products-line</a>
+                                <a href="#">Architecture</a>
+                            </div>
+                            <div class="blog_widget widget_gallery p-xxl-5 p-4 mt-5">
+                                <h4 class="fw-bold fs-4">Gallery</h4>
+                                <a href="blog_detail.html"><img src="img/blog_gallery1.jpg" class="h-100 w-100" alt=""></a>
+                                <a href="blog_detail.html"><img src="img/about 9.jpeg" class="h-100 w-100" alt=""></a>
+                                <a href="blog_detail.html"><img src="img/pro_detail.jpg" class="h-100 w-100" alt=""></a>
+                                <a href="blog_detail.html"><img src="img/about 16.jpeg" class="h-100 w-100" alt=""></a>
+                                <a href="blog_detail.html"><img src="img/asset 23.jpeg" class="h-100 w-100" alt=""></a>
+                                <a href="blog_detail.html"><img src="img/blog_gallery1.jpg" class="h-100 w-100" alt=""></a>
+                            </div>
+                            <div class="blog_widget widget_social p-xxl-5 p-4 mt-5">
+                                <h4 class="fw-bold fs-4">Follow Us</h4>
+                                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- blog details end -->
+
+    </main>
+
+        <!-- footer start -->
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-12 mb-5 px-3">
+                        <div class="footer_logo mb-5">
+                            <img src="img/asset 0.png" alt="">
+                        </div>
+                        <p class="footer_text text-white mb-4">Lorem Ipsum is simply is dumi omy is text Loremo Ipsum is simply is out no our o dummy text.</p>
+                        <ul class="footer_social d-flex">
+                            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-5 px-3">
+                        <p class="footer_title text-white fw-semibold mb-4 fs-4">Contact</p>
+                        <p class="footer_text text-white mb-3">Lorem Ipsum is simply is dumi omy is text dummy text.</p>
+                        <ul class="footer_contact">
+                            <li><a href="#"><i class="fa-solid fa-envelope me-2"></i>info@example.com</a></li>
+                            <li><a href="#"><i class="fa-solid fa-location-dot me-2"></i>6391 Elgin St. Celina, 10299</a></li>
+                            <li><a href="#"><i class="fa-solid fa-phone me-2"></i>(629) 555-0129</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-5 px-3">
+                        <p class="footer_title text-white fw-semibold mb-4 fs-4">Get Free Link</p>
+                        <ul class="footer_contact footer_free_link">
+                            <li><a href="#"><i class="fa-solid fa-angle-right me-2"></i>Software Development</a></li>
+                            <li><a href="#"><i class="fa-solid fa-angle-right me-2"></i>Data Analytics</a></li>
+                            <li><a href="#"><i class="fa-solid fa-angle-right me-2"></i>IT Consulting</a></li>
+                            <li><a href="#"><i class="fa-solid fa-angle-right me-2"></i>UI/UX Design</a></li>
+                            <li><a href="#"><i class="fa-solid fa-angle-right me-2"></i>Network Solutions</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-12 mb-5 px-3">
+                        <p class="footer_title text-white fw-semibold mb-4 fs-4">Newsletter</p>
+                        <p class="footer_text text-white mb-3">Lorem Ipsum is simply dummy text the printing and typesetting industry</p>
+                        <div class="subscribe_form d-flex">
+                            <form action="">
+                                <div class="single_field d-inline-block w-75">
+                                    <input type="email" placeholder="Enter Your Email" class="bg-transparent">
+                                </div>
+                                <div class="submit_btn d-inline-block"><i class="fa-solid fa-paper-plane text-white"></i></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_bottom py-3 border-top border-opacity-10">
+                    <div class="row">
+                        <div class="col-12 d-lg-flex justify-content-between">
+                            <p class="fb_left text-white">© Yoursitename 2023 | All Rights Reserved. Designed By Kashish Khokhani</p>
+                            <ul class="fb_right d-flex">
+                                <li><a href="#">Terms & Condition</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- footer end -->
+
+          <!-- bottom to top start -->
+        <a href="#" id="scroll"><i class="fas fa-chevron-up"></i></a>
+        <!-- bottom to top end -->
+
+    
+    <!-- bootstrap v5.3.3 -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!-- slick slider js -->
+    <script src="js/jquery-3.7.1.js"></script>
+    <script src="js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+
+    <!-- main script -->
+    <script src="js/script.js"></script>
+    
+</body>
+</html>

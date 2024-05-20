@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxelife</title>
+    
+    <!-- favico icon -->
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+
+    <!-- bootstrap  v5.3.3 -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="css/all.min.css">
+
+    <!-- slick slider -->
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+
+    <!-- main style -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- responsive style -->
+    <link rel="stylesheet" href="css/media.css">
+
+</head>
+<body>
+
+    <!-- preloader start -->
+    <div class="preloader">
+        <img src="img/asset 26.gif" alt="">
+    </div>
+    <!-- preloader end -->
+
+     <!-- top header start -->
+    <header id="about_header" class="sticky w-100">
+        <div class="top_header bg-transparent shadow-none about_top_header bg-white align-items-center">
+            <nav class="navbar py-0">
+                <div class="container">
+                    <a class="navbar-brand main_logo p-0 me-0" href="index.html"><img src="img/asset 0.png" alt="" class="white_logo"><img src="img/asset 1.png" alt="" class="dark_logo"></a>
+                    <button class="navbar-toggler border-0 d-block d-lg-none z-3 text-white fs-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                        <span><i class="fas fa-bars"></i></span>
+                    </button>
+        
+                    <div class="headre_menu_btn z-1 d-flex align-items-center justify-content-between w-75">
+                    <ul class="main_menu d-lg-flex mb-0 px-0 d-none d-lg-block" id="navbarSupportedContent">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li><a href="about.html">About</a></li>
+                        <li>
+                            <a href="service.html">Service</a>
+                        </li>
+                        <li>
+                            <a href="#">Pages <i class="fas fa-angle-down"></i> </a>
+                            <ul class="sub_menu">
+                                <li><a href="faq.html">FAQ Page</a></li>
+                                <li><a href="pricing.html">Pricing Page</a></li>
+                                <li><a href="apartment.html">Apartment Page</a></li>
+                                <li><a href="project.html">Project Page</a></li>
+                                <li><a href="team.html">Team Page</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="blog.html">Blog</a>
+                        </li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+        
+                    <div class="sec_btn d-none d-xl-block">
+                        <a href="#" class="fw-bold text-white">GET A QUOTE <i class="fas fa-plus ms-2"></i></a>
+                    </div>
+                </div>
+    
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <div class="offcanvas-title" id="offcanvasNavbarLabel">
+                            <img src="img/asset 1.png" alt="">
+                        </div>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+
+                    <div class="offcanvas-body overflowY-scroll">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html" aria-expanded="false">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <div class="main_res_menu d-flex justify-content-between align-items-center">
+                                    <a class="nav-link" href="service.html" aria-expanded="false">Service</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <div class="main_res_menu d-flex justify-content-between align-items-center">
+                                    <a class="nav-link" href="#" aria-expanded="false">Pages</a> <i class="fas fa-plus"  data-bs-toggle="collapse" data-bs-target="#collapseExample3"></i>
+                                </div>
+                                <ul class="collapse mob_sub_menu" id="collapseExample3">
+                                    <li><a class="nav-link" href="faq.html">FAQ Page</a></li>
+                                    <li><a class="nav-link" href="pricing.html">Pricing Page</a></li>
+                                    <li><a class="nav-link" href="apartment.html">Apartment Page</a></li>
+                                    <li><a class="nav-link" href="project.html">Project Page</a></li>
+                                    <li><a class="nav-link" href="team.html">Team Page</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <div class="main_res_menu d-flex justify-content-between align-items-center">
+                                    <a class="nav-link" href="blog.html" aria-expanded="false">Blog </a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html" data-bs-toggle="collapse" aria-expanded="false">Contact</a>
+                            </li>
+                        </ul>
+                        
+                        <div class="contact_info">
+                            <p class="contact_main_title h5 fw-bold">Contact Info</p>
+                            <ul class="contact_social mb-0">
+                                <li><a href="#"><i class="fa-solid fa-location-dot me-3"></i>20, Bordeshi, New York, US</a></li>
+                                <li><a href="#"><i class="fa-solid fa-envelope me-3"></i>hello@technova.com</a></li>
+                                <li><a href="#"><i class="fa-solid fa-phone me-3"></i>+123-456-7890</a></li>
+                            </ul>
+                            <ul class="social_profile border-top d-flex pt-3 mt-3">
+                                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>   
+    <!-- top header end -->
+
+    <main>
+        <!-- breadcrumb start -->
+        <section>
+            <div class="about_banner" style="background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url(img/about\ 19.jpeg); background-size: cover; background-position: center center;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="page_heading text-center">
+                                <p class="page_title text-white display-5 fw-semibold mb-0">Apartment</p>
+                            </div>
+                            <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                                <ol class="breadcrumb justify-content-center">
+                                  <li class="breadcrumb-item"><a href="index.html" class="text-white">Home</a></li>
+                                  <li class="breadcrumb-item active" aria-current="page"><a href="#" class="text-white">Apartment</a></li>
+                                </ol>
+                              </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- breadcrumb end -->
+
+        <!-- book apointment start -->
+        <section class="book_ap spacer pt-0">
+            <div class="book_apointment_sec">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 col-12">
+                            <div class="sec_title">
+                                <p class="sec_main_title txtyellow fw-bolder h6 mb-2">SEND A MESSEGE</p>
+                                <p class="sec_sub_title display-5 lh-sm fw-bolder mb-4">Feel Free To Messege</p>
+                                <p class="sec_texts">Aliquam eros justo, posuere loborti viverra lao ullamcorper posuere viverra. Aliquam eros justo, posuere lobortis non, viverra laoreet</p>
+                            </div>
+                            <div class="book_contact">
+                                <form action="">
+                                    <input type="text" placeholder="Your Name">
+                                    <div class="book_con_row d-lg-flex">
+                                        <input type="email" placeholder="Email">
+                                        <input type="call" placeholder="phone">
+                                    </div>
+                                    <textarea name="" id="" placeholder="Message Here..."></textarea>
+                                </form>
+                                <div class="single_radio mb-4">
+                                    <h5 class="fw-bold mb-3">Booking Method*</h5>
+                                    <div class="radio_button">
+                                        <label for="radio1" class="d-block">
+                                            <input type="radio" name="radio" id="radio1" value="1" checked>
+                                            <span class="radio_box"><i class="fas fa-circle"></i></span>
+                                            <span class="radio_txt">Phone</span>
+                                        </label>
+                                        <label for="radio2" class="d-block">
+                                            <input type="radio" name="radio" id="radio2" value="2">
+                                            <span class="radio_box"><i class="fas fa-circle"></i></span>
+                                            <span class="radio_txt">Text</span>
+                                        </label>
+                                        <label for="radio3" class="d-block">
+                                            <input type="radio" name="radio" id="radio3" value="3">
+                                            <span class="radio_box"><i class="fas fa-circle"></i></span>
+                                            <span class="radio_txt">E-Mail</span>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="radio2">
+                                    <h5 class="fw-bold mb-3">Term and Conditions*</h5>
+                                    <div class="radio_button">
+                                        <label for="radio4" class="d-block">
+                                            <input type="radio" name="radio1" id="radio4" value="4" checked>
+                                            <span class="radio_box"><i class="fas fa-circle"></i></span>
+                                            <span class="radio_txt">Yes,I agree to your Conditions</span>
+                                        </label>
+                                        <label for="radio5" class="d-block">
+                                            <input type="radio" name="radio1" id="radio5" value="5">
+                                            <span class="radio_box"><i class="fas fa-circle"></i></span>
+                                            <span class="radio_txt">No,I don't agree</span>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="sec_btn mt-5 p-0">
+                                    <a href="#" class="fw-bold text-center">SEND MESSAGE</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-12">
+                            <div class="apartment_details">
+                                <div class="sec_title mb-0">
+                                    <p class="sec_sub_title fs-2 lh-sm fw-bolder mb-3">Elevate Your Space Elevate Your Life</p>
+                                    <p class="sec_texts">Interior design is the art and science o enhancing the interior of a building to achieve a healthier and more aesthetically pleasing environment for the people</p>
+                                </div>
+                                <div class="apart_img img-fluid mb-5">
+                                    <img src="img/apartment_img.jpg" alt="">
+                                </div>
+                                <div class="list_items">
+                                    <div class="single_list_item mb-4">
+                                        <div class="single_item_title d-flex align-items-center mb-3">
+                                            <i class="fa-solid fa-circle-check txtyellow fs-6"></i>
+                                            <h4 class="fw-bold ms-3 mb-0">Elevate Your Space, Elevate Your Life</h4>
+                                        </div>
+                                        <p class="single_item_con">The pursuit of effective use of user well-being and functional design has contributed to the development of the conteporary interior design profession. The profession of interior design is separate and distinct from the role of interior decorator</p>
+                                    </div>
+                                    <div class="single_list_item mb-4">
+                                        <div class="single_item_title d-flex align-items-center mb-3">
+                                            <i class="fa-solid fa-circle-check txtyellow fs-6"></i>
+                                            <h4 class="fw-bold ms-3 mb-0">Designing Dreams Creating Comfort</h4>
+                                        </div>
+                                        <p class="single_item_con">The pursuit of effective use of user well-being and functional design has contributed to the development of the conteporary interior design profession. The profession of interior design is separate and distinct from the role of interior decorator</p>
+                                    </div>
+                                    <div class="single_list_item mb-4">
+                                        <div class="single_item_title d-flex align-items-center mb-3">
+                                            <i class="fa-solid fa-circle-check txtyellow fs-6"></i>
+                                            <h4 class="fw-bold ms-3 mb-0">Elevate Your Space, Elevate Your Life</h4>
+                                        </div>
+                                        <p class="single_item_con">The pursuit of effective use of user well-being and functional design has contributed to the development of the conteporary interior design profession. The profession of interior design is separate and distinct from the role of interior decorator</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- book apointment end -->
+        
+    </main>
+
+    <!-- footer start -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-12 mb-5 px-3">
+                    <div class="footer_logo mb-5">
+                        <img src="img/asset 0.png" alt="">
+                    </div>
+                    <p class="footer_text text-white mb-4">Lorem Ipsum is simply is dumi omy is text Loremo Ipsum is simply is out no our o dummy text.</p>
+                    <ul class="footer_social d-flex">
+                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-5 px-3">
+                    <p class="footer_title text-white fw-semibold mb-4 fs-4">Contact</p>
+                    <p class="footer_text text-white mb-3">Lorem Ipsum is simply is dumi omy is text dummy text.</p>
+                    <ul class="footer_contact">
+                        <li><a href="#"><i class="fa-solid fa-envelope me-2"></i>info@example.com</a></li>
+                        <li><a href="#"><i class="fa-solid fa-location-dot me-2"></i>6391 Elgin St. Celina, 10299</a></li>
+                        <li><a href="#"><i class="fa-solid fa-phone me-2"></i>(629) 555-0129</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-5 px-3">
+                    <p class="footer_title text-white fw-semibold mb-4 fs-4">Get Free Link</p>
+                    <ul class="footer_contact footer_free_link">
+                        <li><a href="#"><i class="fa-solid fa-angle-right me-2"></i>Software Development</a></li>
+                        <li><a href="#"><i class="fa-solid fa-angle-right me-2"></i>Data Analytics</a></li>
+                        <li><a href="#"><i class="fa-solid fa-angle-right me-2"></i>IT Consulting</a></li>
+                        <li><a href="#"><i class="fa-solid fa-angle-right me-2"></i>UI/UX Design</a></li>
+                        <li><a href="#"><i class="fa-solid fa-angle-right me-2"></i>Network Solutions</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-12 mb-5 px-3">
+                    <p class="footer_title text-white fw-semibold mb-4 fs-4">Newsletter</p>
+                    <p class="footer_text text-white mb-3">Lorem Ipsum is simply dummy text the printing and typesetting industry</p>
+                    <div class="subscribe_form d-flex">
+                        <form action="">
+                            <div class="single_field d-inline-block w-75">
+                                <input type="email" placeholder="Enter Your Email" class="bg-transparent">
+                            </div>
+                            <div class="submit_btn d-inline-block"><i class="fa-solid fa-paper-plane text-white"></i></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_bottom py-3 border-top border-opacity-10">
+                <div class="row">
+                    <div class="col-12 d-lg-flex justify-content-between">
+                        <p class="fb_left text-white">© Yoursitename 2023 | All Rights Reserved. Designed By Kashish Khokhani</p>
+                        <ul class="fb_right d-flex">
+                            <li><a href="#">Terms & Condition</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+
+      <!-- bottom to top start -->
+      <a href="#" id="scroll"><i class="fas fa-chevron-up"></i></a>
+      <!-- bottom to top end -->
+    
+    
+    
+    <!-- bootstrap v5.3.3 -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!-- slick slider js -->
+    <script src="js/jquery-3.7.1.js"></script>
+    <script src="js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+
+    <!-- main script -->
+    <script src="js/script.js"></script>
+    
+    
+    
+</body>
+</html>
