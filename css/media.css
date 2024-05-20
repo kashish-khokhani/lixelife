@@ -98,18 +98,6 @@
     .slider_testi .single_testi_info {
         width: 800px;
     }
-    /* .popup_img{
-        height: 536px;
-        width: 1116px;
-    } */
-    /* .service_main_img{
-        height: 443px !important;
-        width: 736px !important;
-    } */
-    /* .pro_detail_image,.pro_detail_image img{
-        width: 1116px;
-        height: 580px;
-    } */
     .team_sec_image,.team_sec_image img{
         width: 546px;
         height: 592px;
@@ -118,10 +106,6 @@
         width: 356px !important;
         height: 415px !important;
     }
-    /* .blog_detail_img2,.blog_detail_img2 img {
-        height: 153px;
-        width: 300px;
-    } */
 }
 
 @media screen and (max-width: 1199.5px){
@@ -255,10 +239,6 @@
         line-height: 28px;
         padding-left: 0 !important;
     }
-    /* .popup_img{
-        height: 449px;
-        width: 936px;
-    } */
     .popup_btn{
         top: 31%;
         left: 42%;
@@ -269,22 +249,10 @@
     .about_right_con,.right_sub_img{
         left: 5%;
     }
-    /* .service_main_img{
-        height: 371px !important;
-        width: 616px !important;
-    } */
-    /* .apart_img,.apart_img img{
-        height: 188px;
-        width: 456px;
-    } */
     .list_items li{
         display: flex;
         align-items: baseline;
     }
-    /* .pro_detail_image,.pro_detail_image img{
-        width: 936px;
-        height: 486px;
-    } */
     .team_sec_image,.team_sec_image img{
         width: 456px;
         height: 542px;
@@ -352,10 +320,6 @@
         padding-top: 80px !important;
         padding-bottom: 93px !important;
     }
-    /* .main_img{
-        width: 611px !important;
-        height: 698px !important;
-    } */
     .revire_card{
         height: 200px !important;
         width: 200px !important;
@@ -403,10 +367,6 @@
         font-size: 17px !important;
         line-height: 28px;
     }
-    /* .popup_img{
-        height: 334px;
-        width: 696px;
-    } */
     .popup_btn{
         height: 130px;
         width: 130px;
@@ -424,25 +384,13 @@
     .about_right_con,.right_sub_img{
         left: 10%;
     }
-    /* .service_main_img{
-        height: 419px !important;
-        width: 696px !important;
-    } */
     .project_img img{
         height: 336px;
     }
-    /* .apart_img,.apart_img img{
-        height: 260px;
-        width: 630px;
-    } */
     .list_items li{
         display: flex;
         align-items: center;
     }
-    /* .pro_detail_image,.pro_detail_image img{
-        width: 696px;
-        height: 362px;
-    } */
     .team_sec_image,.team_sec_image img{
         width: 100%;
         height: 100%;
@@ -451,10 +399,6 @@
         width: 100%;
         height: 100%;
     }
-    /* .single_post_item > .post_thumbnail .popup_img{
-        width: 100% !important;
-        height: 100% !important;
-    } */
 }
 @media screen and (max-width: 767.5px){
 
@@ -483,10 +427,6 @@
     .portfolio_details .nav-link h3{
         width: 100% !important;
     }
-    /* .main_img{
-        width: 466px !important;
-        height: 530px !important;
-    } */
     .revire_card{
         height: 136px !important;
         width: 136px !important;
@@ -555,10 +495,6 @@
     .slider_testi .testi_desc {
         font-size: 16px !important;
     }
-    /* .popup_img{
-        height: 250px;
-        width: 516px;
-    } */
     .popup_btn{
         height: 100px;
         width: 100px;
@@ -582,21 +518,9 @@
     .right_sub_img{
         top: 45%;
     }
-    /* .service_main_img{
-        height: 310px !important;
-        width: 516px !important;
-    } */
     .project_img img{
         height: 100%;
     }
-    /* .apart_img,.apart_img img{
-        height: 212px;
-        width: 516px;
-    } */
-    /* .pro_detail_image,.pro_detail_image img{
-        width: 516px;
-        height: 268px;
-    } */
     .progress_bar{
         display: block !important;
     }
